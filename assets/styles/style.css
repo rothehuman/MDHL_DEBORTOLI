@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*-----Header-----*/
+header{
+    width: 80vw;
+    margin: 2vh auto;
+}
+
+header>div{
+    background-image: url(../img/design1image2.jpg);
+    background-size: cover;
+    height: 25vh;
+}
+
+header>nav{
+    position: relative;
+    top: 10px;
+    left: 55%;
+    width: 45%;    
+}
+
+header img{
+    width: 13%;
+}
+
+nav>a{
+    background-color: rgb(97, 105, 247);
+    color: white;
+    margin: auto 5px;
+    padding: 3px 3px;
+    border: 1px solid black;
+    box-shadow: 4px 4px black;
+}
+
+a[href="#"]{
+    background-color: green;
+    color: white;
+}
+
+header>h3{
+    background-color: white;
+    text-align: center;
+    border: 2px solid black;
+    padding: 4px;
+}
+
+/*-----Main-----*/
+.seccion{
+    width: 75vw;
+    margin: 2vh auto;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+}
+
+.seccion>img{
+    width: 30%;
+    padding: 20px;
+}
+
+.seccion>section{
+    width: 60%;
+    margin: 10px 50px 10px 50px;
+    padding: 20px;
+    border: 3px solid rgb(177, 177, 177);
+    border-radius: .4rem;
+}
+
+p{
+    text-indent: 20px;
+    margin: 5px 0 20px 0;
+}
+
+/*-----table-----*/
+
+table{
+    margin: auto;
+    table-layout: auto;
+    border-collapse: separate;
+    border: 2px solid black;
+}
+
+th, td{
+    padding: .5rem;
+    border: 1px solid black;
+    text-align: center;
+}
+
+tbody tr:nth-child(odd), thead tr{
+    background-color: #e2e2e2;
+}
+
+
+/*dt {
+    font-weight: bold;
+}
+
+dl,
+dd {
+    font-size: 0.9rem;
+}
+
+dd {
+    margin-bottom: 1em;
+}*/
